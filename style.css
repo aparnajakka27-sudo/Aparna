@@ -324,11 +324,88 @@ textarea {
 
 /* Mobile Adjustments */
 @media (max-width: 600px) {
+    :root { 
+        --cell-size: 32px; 
+        --label-width: 100px; 
+    }
+
     body { padding: 10px; }
-    .container { padding: 10px; }
-    header { flex-direction: column; text-align: center; }
-    .header-center .theme-title { font-size: 1.1rem; }
-    :root { --cell-size: 35px; --label-width: 120px; }
+    
+    .container { 
+        padding: 10px; 
+        border: none;
+    }
+
+    header { 
+        flex-direction: column; 
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .header-center .theme-title { 
+        font-size: 1rem; 
+        letter-spacing: 1px;
+    }
+
+    .header-right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .button-group {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .primary-btn, .secondary-btn {
+        flex: 1;
+        padding: 10px 5px;
+        font-size: 0.7rem;
+    }
+
+    /* Make habit input easier to read on narrow labels */
+    .habit-name-input {
+        font-size: 0.7rem;
+    }
+
+    /* Table adjustments for mobile */
+    .habit-col, .sleep-row-label, .total-label {
+        padding-left: 5px;
+        font-size: 0.7rem;
+        border-right: 1px solid var(--border-color);
+    }
+
+    th, td {
+        font-size: 0.7rem;
+    }
+
+    /* Modal adjustments */
+    .summary-card, .vault-content {
+        width: 95%;
+        min-width: unset;
+        padding: 20px;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .stat-item strong {
+        font-size: 1.2rem;
+    }
+}
+
+/* Touch optimization */
+.cell {
+    -webkit-tap-highlight-color: transparent;
+}
+
+.table-container {
+    -webkit-overflow-scrolling: touch;
 }
 
 
