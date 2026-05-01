@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>May 2026 Habit Tracker - Getting 1% Better Every Day</title>
+    <meta name="description" content="A minimalist 31-day habit and sleep tracker for May 2026.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-left">
+                <h1 id="month-year">May 2026</h1>
+            </div>
+            <div class="header-center">
+                <span class="theme-title">Getting 1% Better Every Day</span>
+            </div>
+            <div class="header-right">
+                <div class="button-group">
+                    <button id="save-btn" class="primary-btn">Save Progress</button>
+                    <button id="view-data-btn" class="secondary-btn">View Data</button>
+                </div>
+                <span class="brand">@selfmadehq</span>
+            </div>
+        </header>
+
+        <!-- Daily Summary Section (Already exists, but keeping for context) -->
+        <div id="daily-summary" class="summary-card hidden">
+            <h3>Daily Summary - <span id="summary-date"></span></h3>
+            <div class="summary-stats">
+                <p>Habits Completed: <strong id="summary-habits">0/12</strong></p>
+                <p>Sleep Tracked: <strong id="summary-sleep">None</strong></p>
+            </div>
+            <button id="close-summary" class="close-btn">Close</button>
+        </div>
+
+        <!-- Data Vault Modal -->
+        <div id="data-vault" class="vault-modal hidden">
+            <div class="vault-content">
+                <div class="vault-header">
+                    <h2>Data Vault</h2>
+                    <button id="close-vault" class="close-icon">&times;</button>
+                </div>
+                <div class="vault-body">
+                    <div id="monthly-stats" class="stats-grid">
+                        <!-- Stats will be injected here -->
+                    </div>
+                    <hr>
+                    <h3>Save History</h3>
+                    <ul id="history-list" class="history-list">
+                        <!-- History entries will be injected here -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <section class="habits-section">
+            <h2 class="section-title">31 Days Dashboard</h2>
+            <div class="table-container">
+                <table id="habits-table">
+                    <thead>
+                        <tr id="date-row">
+                            <th class="habit-col">Habits</th>
+                            <!-- JS will populate days 1-31 -->
+                        </tr>
+                        <tr id="day-row">
+                            <th class="habit-col"></th>
+                            <!-- JS will populate day names Fri-Sun -->
+                        </tr>
+                    </thead>
+                    <tbody id="habits-body">
+                        <!-- JS will populate 12 habit rows -->
+                    </tbody>
+                    <tfoot>
+                        <tr class="total-row" id="total-points-row">
+                            <td class="total-label">Total Points</td>
+                            <!-- JS will populate daily totals -->
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+
+        <section class="sleep-section">
+            <h2 class="section-title">Sleep Tracker</h2>
+            <div class="table-container">
+                <table id="sleep-table">
+                    <thead>
+                        <tr id="sleep-date-row">
+                            <th class="sleep-row-label">Sleep</th>
+                            <!-- JS will populate days 1-31 -->
+                        </tr>
+                    </thead>
+                    <tbody id="sleep-body">
+                        <!-- JS will populate sleep rows 9hrs-5hrs -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="notes-section">
+            <label for="notes" class="notes-label">Note:</label>
+            <textarea id="notes" placeholder="Write your thoughts here..."></textarea>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
