@@ -38,6 +38,18 @@ document.addEventListener('DOMContentLoaded', () => {
         state = loaded;
     }
 
+    // Supabase Configuration (REPLACE WITH YOUR OWN)
+    const SUPABASE_URL = 'YOUR_SUPABASE_URL';
+    const SUPABASE_ANON_KEY = 'YOUR_SUPABASE_ANON_KEY';
+    const supabase = window.supabase ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
+
+    // Generate or load a unique user ID for this browser
+    let userId = localStorage.getItem('habitTrackerUserId');
+    if (!userId) {
+        userId = 'user_' + Math.random().toString(36).substr(2, 9);
+        localStorage.setItem('habitTrackerUserId', userId);
+    }
+
     function saveState(isManual = false) {
         if (isManual) {
             const today = new Date();
@@ -47,10 +59,31 @@ document.addEventListener('DOMContentLoaded', () => {
                 habitsTotal: habitsCount,
                 notePreview: state.notes.substring(0, 20) + (state.notes.length > 20 ? '...' : '')
             });
-            // Keep only last 20 history items
             if (state.history.length > 20) state.history.pop();
         }
         localStorage.setItem('habitTrackerState', JSON.stringify(state));
+
+        // Sync to Supabase
+        if (supabase) {
+            syncToCloud();
+        }
+    }
+
+    async function syncToCloud() {
+        try {
+            const { error } = await supabase
+                .from('user_habits')
+                .upsert({ 
+                    user_id: userId, 
+                    habit_data: state,
+                    updated_at: new Date().toISOString()
+                }, { onConflict: 'user_id' });
+            
+            if (error) console.error('Cloud Sync Error:', error);
+            else console.log('Synced to Cloud');
+        } catch (err) {
+            console.error('Network error during sync:', err);
+        }
     }
 
     // Populate Headers
