@@ -1,0 +1,555 @@
+{
+  "skill": "aws",
+  "questions": [
+    {
+      "id": 1,
+      "q": "What does AWS stand for?",
+      "options": [
+        "Advanced Web Services",
+        "Amazon Web Services",
+        "Application Web Server",
+        "Amazon Workflow System"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 2,
+      "q": "Which AWS service is primarily used for virtual servers?",
+      "options": [
+        "S3",
+        "EC2",
+        "Lambda",
+        "RDS"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 3,
+      "q": "Q3. Which AWS service manages relational databases?",
+      "options": [
+        "RDS",
+        "DynamoDB",
+        "S3",
+        "EC2"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 4,
+      "q": "Q4. What is Amazon CloudFront?",
+      "options": [
+        "A virtual machine",
+        "A CDN service",
+        "A monitoring tool",
+        "A database"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 5,
+      "q": "Q5. Which AWS service helps manage user permissions?",
+      "options": [
+        "IAM",
+        "VPC",
+        "CloudTrail",
+        "Route 53"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 6,
+      "q": "Q6. What does Amazon VPC provide?",
+      "options": [
+        "Email hosting",
+        "Private cloud networking",
+        "AI services",
+        "Object storage"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 7,
+      "q": "Q7. Which AWS service is used for DNS management?",
+      "options": [
+        "CloudWatch",
+        "Route 53",
+        "Elastic Beanstalk",
+        "SQS"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 8,
+      "q": "Q8. What is the purpose of Amazon CloudWatch?",
+      "options": [
+        "Monitor resources and applications",
+        "Host websites",
+        "Store files",
+        "Run containers"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 9,
+      "q": "Q9. Which AWS service is used for object storage?",
+      "options": [
+        "EC2",
+        "S3",
+        "CloudFront",
+        "IAM"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 10,
+      "q": "Q10. What is AWS Lambda used for?",
+      "options": [
+        "Database hosting",
+        "Serverless computing",
+        "DNS management",
+        "Monitoring"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 11,
+      "q": "Q11. Which AWS service manages relational databases?",
+      "options": [
+        "RDS",
+        "DynamoDB",
+        "S3",
+        "EC2"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 12,
+      "q": "Q12. What is Amazon CloudFront?",
+      "options": [
+        "A virtual machine",
+        "A CDN service",
+        "A monitoring tool",
+        "A database"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 13,
+      "q": "Q13. Which AWS service helps manage user permissions?",
+      "options": [
+        "IAM",
+        "VPC",
+        "CloudTrail",
+        "Route 53"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 14,
+      "q": "Q14. What does Amazon VPC provide?",
+      "options": [
+        "Email hosting",
+        "Private cloud networking",
+        "AI services",
+        "Object storage"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 15,
+      "q": "Q15. Which AWS service is used for DNS management?",
+      "options": [
+        "CloudWatch",
+        "Route 53",
+        "Elastic Beanstalk",
+        "SQS"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 16,
+      "q": "Q16. What is the purpose of Amazon CloudWatch?",
+      "options": [
+        "Monitor resources and applications",
+        "Host websites",
+        "Store files",
+        "Run containers"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 17,
+      "q": "Q17. Which AWS service is used for object storage?",
+      "options": [
+        "EC2",
+        "S3",
+        "CloudFront",
+        "IAM"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 18,
+      "q": "Q18. What is AWS Lambda used for?",
+      "options": [
+        "Database hosting",
+        "Serverless computing",
+        "DNS management",
+        "Monitoring"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 19,
+      "q": "Q19. Which AWS service manages relational databases?",
+      "options": [
+        "RDS",
+        "DynamoDB",
+        "S3",
+        "EC2"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 20,
+      "q": "Q20. What is Amazon CloudFront?",
+      "options": [
+        "A virtual machine",
+        "A CDN service",
+        "A monitoring tool",
+        "A database"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 21,
+      "q": "Q21. Which AWS service helps manage user permissions?",
+      "options": [
+        "IAM",
+        "VPC",
+        "CloudTrail",
+        "Route 53"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 22,
+      "q": "Q22. What does Amazon VPC provide?",
+      "options": [
+        "Email hosting",
+        "Private cloud networking",
+        "AI services",
+        "Object storage"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 23,
+      "q": "Q23. Which AWS service is used for DNS management?",
+      "options": [
+        "CloudWatch",
+        "Route 53",
+        "Elastic Beanstalk",
+        "SQS"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 24,
+      "q": "Q24. What is the purpose of Amazon CloudWatch?",
+      "options": [
+        "Monitor resources and applications",
+        "Host websites",
+        "Store files",
+        "Run containers"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 25,
+      "q": "Q25. Which AWS service is used for object storage?",
+      "options": [
+        "EC2",
+        "S3",
+        "CloudFront",
+        "IAM"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 26,
+      "q": "Q26. What is AWS Lambda used for?",
+      "options": [
+        "Database hosting",
+        "Serverless computing",
+        "DNS management",
+        "Monitoring"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 27,
+      "q": "Q27. Which AWS service manages relational databases?",
+      "options": [
+        "RDS",
+        "DynamoDB",
+        "S3",
+        "EC2"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 28,
+      "q": "Q28. What is Amazon CloudFront?",
+      "options": [
+        "A virtual machine",
+        "A CDN service",
+        "A monitoring tool",
+        "A database"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 29,
+      "q": "Q29. Which AWS service helps manage user permissions?",
+      "options": [
+        "IAM",
+        "VPC",
+        "CloudTrail",
+        "Route 53"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 30,
+      "q": "Q30. What does Amazon VPC provide?",
+      "options": [
+        "Email hosting",
+        "Private cloud networking",
+        "AI services",
+        "Object storage"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 31,
+      "q": "Q31. Which AWS service is used for DNS management?",
+      "options": [
+        "CloudWatch",
+        "Route 53",
+        "Elastic Beanstalk",
+        "SQS"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 32,
+      "q": "Q32. What is the purpose of Amazon CloudWatch?",
+      "options": [
+        "Monitor resources and applications",
+        "Host websites",
+        "Store files",
+        "Run containers"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 33,
+      "q": "Q33. Which AWS service is used for object storage?",
+      "options": [
+        "EC2",
+        "S3",
+        "CloudFront",
+        "IAM"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 34,
+      "q": "Q34. What is AWS Lambda used for?",
+      "options": [
+        "Database hosting",
+        "Serverless computing",
+        "DNS management",
+        "Monitoring"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 35,
+      "q": "Q35. Which AWS service manages relational databases?",
+      "options": [
+        "RDS",
+        "DynamoDB",
+        "S3",
+        "EC2"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 36,
+      "q": "Q36. What is Amazon CloudFront?",
+      "options": [
+        "A virtual machine",
+        "A CDN service",
+        "A monitoring tool",
+        "A database"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 37,
+      "q": "Q37. Which AWS service helps manage user permissions?",
+      "options": [
+        "IAM",
+        "VPC",
+        "CloudTrail",
+        "Route 53"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 38,
+      "q": "Q38. What does Amazon VPC provide?",
+      "options": [
+        "Email hosting",
+        "Private cloud networking",
+        "AI services",
+        "Object storage"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 39,
+      "q": "Q39. Which AWS service is used for DNS management?",
+      "options": [
+        "CloudWatch",
+        "Route 53",
+        "Elastic Beanstalk",
+        "SQS"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 40,
+      "q": "Q40. What is the purpose of Amazon CloudWatch?",
+      "options": [
+        "Monitor resources and applications",
+        "Host websites",
+        "Store files",
+        "Run containers"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 41,
+      "q": "Q41. Which AWS service is used for object storage?",
+      "options": [
+        "EC2",
+        "S3",
+        "CloudFront",
+        "IAM"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 42,
+      "q": "Q42. What is AWS Lambda used for?",
+      "options": [
+        "Database hosting",
+        "Serverless computing",
+        "DNS management",
+        "Monitoring"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 43,
+      "q": "Q43. Which AWS service manages relational databases?",
+      "options": [
+        "RDS",
+        "DynamoDB",
+        "S3",
+        "EC2"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 44,
+      "q": "Q44. What is Amazon CloudFront?",
+      "options": [
+        "A virtual machine",
+        "A CDN service",
+        "A monitoring tool",
+        "A database"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 45,
+      "q": "Q45. Which AWS service helps manage user permissions?",
+      "options": [
+        "IAM",
+        "VPC",
+        "CloudTrail",
+        "Route 53"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 46,
+      "q": "Q46. What does Amazon VPC provide?",
+      "options": [
+        "Email hosting",
+        "Private cloud networking",
+        "AI services",
+        "Object storage"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 47,
+      "q": "Q47. Which AWS service is used for DNS management?",
+      "options": [
+        "CloudWatch",
+        "Route 53",
+        "Elastic Beanstalk",
+        "SQS"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 48,
+      "q": "Q48. What is the purpose of Amazon CloudWatch?",
+      "options": [
+        "Monitor resources and applications",
+        "Host websites",
+        "Store files",
+        "Run containers"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 49,
+      "q": "Q49. Which AWS service is used for object storage?",
+      "options": [
+        "EC2",
+        "S3",
+        "CloudFront",
+        "IAM"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 50,
+      "q": "Q50. What is AWS Lambda used for?",
+      "options": [
+        "Database hosting",
+        "Serverless computing",
+        "DNS management",
+        "Monitoring"
+      ],
+      "answer": 1
+    }
+  ]
+}

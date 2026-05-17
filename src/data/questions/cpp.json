@@ -1,0 +1,555 @@
+{
+  "skill": "cpp",
+  "questions": [
+    {
+      "id": 1,
+      "q": "What is C++ primarily known for?",
+      "options": [
+        "Database management",
+        "Object-oriented programming",
+        "Web designing",
+        "Operating systems only"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 2,
+      "q": "Which symbol is used for single-line comments in C++?",
+      "options": [
+        "/* */",
+        "//",
+        "#",
+        "<!-- -->"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 3,
+      "q": "Which function is the entry point of a C++ program?",
+      "options": [
+        "start()",
+        "main()",
+        "run()",
+        "execute()"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 4,
+      "q": "Which header file is required for input and output operations?",
+      "options": [
+        "stdio.h",
+        "iostream",
+        "conio.h",
+        "math.h"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 5,
+      "q": "Which operator is used for scope resolution in C++?",
+      "options": [
+        ".",
+        "::",
+        "->",
+        ":"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 6,
+      "q": "What is the correct way to declare a variable?",
+      "options": [
+        "int x;",
+        "integer x;",
+        "x int;",
+        "declare int x;"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 7,
+      "q": "Which keyword is used to define a class?",
+      "options": [
+        "object",
+        "class",
+        "define",
+        "struct"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 8,
+      "q": "What is inheritance in C++?",
+      "options": [
+        "Creating loops",
+        "Reusing properties of another class",
+        "Deleting objects",
+        "Managing memory"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 9,
+      "q": "Which concept allows functions with the same name but different parameters?",
+      "options": [
+        "Inheritance",
+        "Polymorphism",
+        "Overloading",
+        "Encapsulation"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 10,
+      "q": "What is encapsulation?",
+      "options": [
+        "Hiding data inside a class",
+        "Using loops",
+        "Creating arrays",
+        "Deleting objects"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 11,
+      "q": "Which keyword is used to inherit a class publicly?",
+      "options": [
+        "inherit",
+        "extends",
+        "public",
+        "super"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 12,
+      "q": "What is the default access specifier in a class?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "default"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 13,
+      "q": "Which loop executes at least once?",
+      "options": [
+        "for",
+        "while",
+        "do-while",
+        "foreach"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 14,
+      "q": "Which operator is used for dynamic memory allocation?",
+      "options": [
+        "malloc",
+        "alloc",
+        "new",
+        "create"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 15,
+      "q": "Which operator is used to free dynamically allocated memory?",
+      "options": [
+        "delete",
+        "remove",
+        "free()",
+        "clear"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 16,
+      "q": "What is a constructor?",
+      "options": [
+        "A special method used to destroy objects",
+        "A special method used to initialize objects",
+        "A loop",
+        "A variable"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 17,
+      "q": "Which keyword prevents inheritance?",
+      "options": [
+        "stop",
+        "final",
+        "const",
+        "sealed"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 18,
+      "q": "What is function overriding?",
+      "options": [
+        "Redefining parent class function in child class",
+        "Deleting functions",
+        "Creating multiple functions",
+        "Calling functions"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 19,
+      "q": "Which access specifier makes members accessible everywhere?",
+      "options": [
+        "private",
+        "protected",
+        "public",
+        "default"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 20,
+      "q": "What is polymorphism?",
+      "options": [
+        "Multiple forms of methods or objects",
+        "Using arrays",
+        "Managing memory",
+        "Compiling code"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 21,
+      "q": "Which operator is used to access members using pointers?",
+      "options": [
+        ".",
+        "::",
+        "->",
+        "&"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 22,
+      "q": "Which keyword is used to create constant variables?",
+      "options": [
+        "fixed",
+        "final",
+        "const",
+        "static"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 23,
+      "q": "What is the size of int in most modern C++ compilers?",
+      "options": [
+        "2 bytes",
+        "4 bytes",
+        "8 bytes",
+        "16 bytes"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 24,
+      "q": "Which statement is used to handle multiple conditions?",
+      "options": [
+        "if",
+        "loop",
+        "switch",
+        "goto"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 25,
+      "q": "What is recursion?",
+      "options": [
+        "Loop inside loop",
+        "Function calling itself",
+        "Using arrays",
+        "Dynamic memory"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 26,
+      "q": "Which keyword is used to define templates?",
+      "options": [
+        "generic",
+        "template",
+        "typename",
+        "class"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 27,
+      "q": "What is the purpose of virtual functions?",
+      "options": [
+        "Static binding",
+        "Dynamic binding",
+        "Memory allocation",
+        "Loop execution"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 28,
+      "q": "Which keyword refers to the current object?",
+      "options": [
+        "this",
+        "self",
+        "super",
+        "current"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 29,
+      "q": "Which library function calculates square root?",
+      "options": [
+        "pow()",
+        "sqrt()",
+        "root()",
+        "square()"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 30,
+      "q": "What is an array?",
+      "options": [
+        "Single variable",
+        "Collection of same type elements",
+        "Function",
+        "Class"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 31,
+      "q": "Which operator is used for logical AND?",
+      "options": [
+        "&",
+        "&&",
+        "||",
+        "!"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 32,
+      "q": "What is the purpose of break statement?",
+      "options": [
+        "Continue loop",
+        "Exit loop or switch",
+        "Create objects",
+        "Compile code"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 33,
+      "q": "Which keyword is used to inherit interfaces in C++?",
+      "options": [
+        "implements",
+        "extends",
+        "public",
+        "No interface keyword in C++"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 34,
+      "q": "What is operator overloading?",
+      "options": [
+        "Using same operator for multiple purposes",
+        "Creating loops",
+        "Deleting operators",
+        "Managing memory"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 35,
+      "q": "Which container stores key-value pairs in STL?",
+      "options": [
+        "vector",
+        "list",
+        "map",
+        "set"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 36,
+      "q": "Which STL container allows duplicate elements?",
+      "options": [
+        "set",
+        "unordered_set",
+        "multiset",
+        "map"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 37,
+      "q": "What is the use of namespace std?",
+      "options": [
+        "Create loops",
+        "Avoid naming conflicts",
+        "Allocate memory",
+        "Define classes"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 38,
+      "q": "Which keyword is used to stop a loop iteration and move to next iteration?",
+      "options": [
+        "break",
+        "continue",
+        "stop",
+        "skip"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 39,
+      "q": "Which feature allows same function name with different parameter types?",
+      "options": [
+        "Inheritance",
+        "Function overloading",
+        "Recursion",
+        "Templates"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 40,
+      "q": "What is a destructor?",
+      "options": [
+        "Special function used to destroy objects",
+        "Special function used to initialize objects",
+        "Loop",
+        "Variable"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 41,
+      "q": "Which keyword is used to handle exceptions?",
+      "options": [
+        "error",
+        "catch",
+        "throw",
+        "try"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 42,
+      "q": "Which block catches exceptions?",
+      "options": [
+        "throw",
+        "error",
+        "catch",
+        "finally"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 43,
+      "q": "What is the output type of cout?",
+      "options": [
+        "istream",
+        "ostream",
+        "ifstream",
+        "ofstream"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 44,
+      "q": "Which STL container maintains insertion order?",
+      "options": [
+        "set",
+        "vector",
+        "unordered_map",
+        "priority_queue"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 45,
+      "q": "What is abstraction?",
+      "options": [
+        "Showing only important details",
+        "Deleting variables",
+        "Using loops",
+        "Dynamic memory"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 46,
+      "q": "Which operator checks equality?",
+      "options": [
+        "=",
+        "==",
+        "!=",
+        ":="
+      ],
+      "answer": 1
+    },
+    {
+      "id": 47,
+      "q": "What is the purpose of pointers?",
+      "options": [
+        "Store addresses of variables",
+        "Create loops",
+        "Manage files",
+        "Handle exceptions"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 48,
+      "q": "Which keyword is used for inline functions?",
+      "options": [
+        "short",
+        "inline",
+        "fast",
+        "quick"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 49,
+      "q": "What is the full form of STL?",
+      "options": [
+        "Standard Template Library",
+        "System Template Library",
+        "Static Template Logic",
+        "Standard Type Library"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 50,
+      "q": "Which data type is used to store true or false?",
+      "options": [
+        "bool",
+        "boolean",
+        "bit",
+        "logic"
+      ],
+      "answer": 0
+    }
+  ]
+}

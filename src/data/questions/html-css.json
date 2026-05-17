@@ -1,0 +1,555 @@
+{
+  "skill": "html-css",
+  "questions": [
+    {
+      "id": 1,
+      "q": "What is the purpose of the <!DOCTYPE html> declaration in HTML?",
+      "options": [
+        "Defines the document type and HTML version",
+        "Creates a comment in HTML",
+        "Links external CSS",
+        "Defines metadata"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 2,
+      "q": "Which CSS property controls the text size?",
+      "options": [
+        "font-style",
+        "text-size",
+        "font-size",
+        "text-style"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 3,
+      "q": "Q3. What does the 'alt' attribute in an <img> tag provide?",
+      "options": [
+        "Alternative text",
+        "Alignment",
+        "Animation",
+        "Aspect ratio"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 4,
+      "q": "Q4. Which CSS layout model is best for one-dimensional layouts?",
+      "options": [
+        "Grid",
+        "Flexbox",
+        "Float",
+        "Inline-block"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 5,
+      "q": "Q5. Which HTML element is used to create a hyperlink?",
+      "options": [
+        "<a>",
+        "<link>",
+        "<href>",
+        "<url>"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 6,
+      "q": "Q6. Which CSS property changes the background color?",
+      "options": [
+        "color",
+        "bgcolor",
+        "background-color",
+        "background"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 7,
+      "q": "Q7. What does the 'alt' attribute in an <img> tag provide?",
+      "options": [
+        "Alternative text",
+        "Alignment",
+        "Animation",
+        "Aspect ratio"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 8,
+      "q": "Q8. Which CSS layout model is best for one-dimensional layouts?",
+      "options": [
+        "Grid",
+        "Flexbox",
+        "Float",
+        "Inline-block"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 9,
+      "q": "Q9. Which HTML element is used to create a hyperlink?",
+      "options": [
+        "<a>",
+        "<link>",
+        "<href>",
+        "<url>"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 10,
+      "q": "Q10. Which CSS property changes the background color?",
+      "options": [
+        "color",
+        "bgcolor",
+        "background-color",
+        "background"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 11,
+      "q": "Q11. What does the 'alt' attribute in an <img> tag provide?",
+      "options": [
+        "Alternative text",
+        "Alignment",
+        "Animation",
+        "Aspect ratio"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 12,
+      "q": "Q12. Which CSS layout model is best for one-dimensional layouts?",
+      "options": [
+        "Grid",
+        "Flexbox",
+        "Float",
+        "Inline-block"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 13,
+      "q": "Q13. Which HTML element is used to create a hyperlink?",
+      "options": [
+        "<a>",
+        "<link>",
+        "<href>",
+        "<url>"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 14,
+      "q": "Q14. Which CSS property changes the background color?",
+      "options": [
+        "color",
+        "bgcolor",
+        "background-color",
+        "background"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 15,
+      "q": "Q15. What does the 'alt' attribute in an <img> tag provide?",
+      "options": [
+        "Alternative text",
+        "Alignment",
+        "Animation",
+        "Aspect ratio"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 16,
+      "q": "Q16. Which CSS layout model is best for one-dimensional layouts?",
+      "options": [
+        "Grid",
+        "Flexbox",
+        "Float",
+        "Inline-block"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 17,
+      "q": "Q17. Which HTML element is used to create a hyperlink?",
+      "options": [
+        "<a>",
+        "<link>",
+        "<href>",
+        "<url>"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 18,
+      "q": "Q18. Which CSS property changes the background color?",
+      "options": [
+        "color",
+        "bgcolor",
+        "background-color",
+        "background"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 19,
+      "q": "Q19. What does the 'alt' attribute in an <img> tag provide?",
+      "options": [
+        "Alternative text",
+        "Alignment",
+        "Animation",
+        "Aspect ratio"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 20,
+      "q": "Q20. Which CSS layout model is best for one-dimensional layouts?",
+      "options": [
+        "Grid",
+        "Flexbox",
+        "Float",
+        "Inline-block"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 21,
+      "q": "Q21. Which HTML element is used to create a hyperlink?",
+      "options": [
+        "<a>",
+        "<link>",
+        "<href>",
+        "<url>"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 22,
+      "q": "Q22. Which CSS property changes the background color?",
+      "options": [
+        "color",
+        "bgcolor",
+        "background-color",
+        "background"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 23,
+      "q": "Q23. What does the 'alt' attribute in an <img> tag provide?",
+      "options": [
+        "Alternative text",
+        "Alignment",
+        "Animation",
+        "Aspect ratio"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 24,
+      "q": "Q24. Which CSS layout model is best for one-dimensional layouts?",
+      "options": [
+        "Grid",
+        "Flexbox",
+        "Float",
+        "Inline-block"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 25,
+      "q": "Q25. Which HTML element is used to create a hyperlink?",
+      "options": [
+        "<a>",
+        "<link>",
+        "<href>",
+        "<url>"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 26,
+      "q": "Q26. Which CSS property changes the background color?",
+      "options": [
+        "color",
+        "bgcolor",
+        "background-color",
+        "background"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 27,
+      "q": "Q27. What does the 'alt' attribute in an <img> tag provide?",
+      "options": [
+        "Alternative text",
+        "Alignment",
+        "Animation",
+        "Aspect ratio"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 28,
+      "q": "Q28. Which CSS layout model is best for one-dimensional layouts?",
+      "options": [
+        "Grid",
+        "Flexbox",
+        "Float",
+        "Inline-block"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 29,
+      "q": "Q29. Which HTML element is used to create a hyperlink?",
+      "options": [
+        "<a>",
+        "<link>",
+        "<href>",
+        "<url>"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 30,
+      "q": "Q30. Which CSS property changes the background color?",
+      "options": [
+        "color",
+        "bgcolor",
+        "background-color",
+        "background"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 31,
+      "q": "Q31. What does the 'alt' attribute in an <img> tag provide?",
+      "options": [
+        "Alternative text",
+        "Alignment",
+        "Animation",
+        "Aspect ratio"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 32,
+      "q": "Q32. Which CSS layout model is best for one-dimensional layouts?",
+      "options": [
+        "Grid",
+        "Flexbox",
+        "Float",
+        "Inline-block"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 33,
+      "q": "Q33. Which HTML element is used to create a hyperlink?",
+      "options": [
+        "<a>",
+        "<link>",
+        "<href>",
+        "<url>"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 34,
+      "q": "Q34. Which CSS property changes the background color?",
+      "options": [
+        "color",
+        "bgcolor",
+        "background-color",
+        "background"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 35,
+      "q": "Q35. What does the 'alt' attribute in an <img> tag provide?",
+      "options": [
+        "Alternative text",
+        "Alignment",
+        "Animation",
+        "Aspect ratio"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 36,
+      "q": "Q36. Which CSS layout model is best for one-dimensional layouts?",
+      "options": [
+        "Grid",
+        "Flexbox",
+        "Float",
+        "Inline-block"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 37,
+      "q": "Q37. Which HTML element is used to create a hyperlink?",
+      "options": [
+        "<a>",
+        "<link>",
+        "<href>",
+        "<url>"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 38,
+      "q": "Q38. Which CSS property changes the background color?",
+      "options": [
+        "color",
+        "bgcolor",
+        "background-color",
+        "background"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 39,
+      "q": "Q39. What does the 'alt' attribute in an <img> tag provide?",
+      "options": [
+        "Alternative text",
+        "Alignment",
+        "Animation",
+        "Aspect ratio"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 40,
+      "q": "Q40. Which CSS layout model is best for one-dimensional layouts?",
+      "options": [
+        "Grid",
+        "Flexbox",
+        "Float",
+        "Inline-block"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 41,
+      "q": "Q41. Which HTML element is used to create a hyperlink?",
+      "options": [
+        "<a>",
+        "<link>",
+        "<href>",
+        "<url>"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 42,
+      "q": "Q42. Which CSS property changes the background color?",
+      "options": [
+        "color",
+        "bgcolor",
+        "background-color",
+        "background"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 43,
+      "q": "Q43. What does the 'alt' attribute in an <img> tag provide?",
+      "options": [
+        "Alternative text",
+        "Alignment",
+        "Animation",
+        "Aspect ratio"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 44,
+      "q": "Q44. Which CSS layout model is best for one-dimensional layouts?",
+      "options": [
+        "Grid",
+        "Flexbox",
+        "Float",
+        "Inline-block"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 45,
+      "q": "Q45. Which HTML element is used to create a hyperlink?",
+      "options": [
+        "<a>",
+        "<link>",
+        "<href>",
+        "<url>"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 46,
+      "q": "Q46. Which CSS property changes the background color?",
+      "options": [
+        "color",
+        "bgcolor",
+        "background-color",
+        "background"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 47,
+      "q": "Q47. What does the 'alt' attribute in an <img> tag provide?",
+      "options": [
+        "Alternative text",
+        "Alignment",
+        "Animation",
+        "Aspect ratio"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 48,
+      "q": "Q48. Which CSS layout model is best for one-dimensional layouts?",
+      "options": [
+        "Grid",
+        "Flexbox",
+        "Float",
+        "Inline-block"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 49,
+      "q": "Q49. Which HTML element is used to create a hyperlink?",
+      "options": [
+        "<a>",
+        "<link>",
+        "<href>",
+        "<url>"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 50,
+      "q": "Q50. Which CSS property changes the background color?",
+      "options": [
+        "color",
+        "bgcolor",
+        "background-color",
+        "background"
+      ],
+      "answer": 2
+    }
+  ]
+}

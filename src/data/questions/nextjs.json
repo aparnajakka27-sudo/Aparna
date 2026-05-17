@@ -1,0 +1,555 @@
+{
+  "skill": "nextjs",
+  "questions": [
+    {
+      "id": 1,
+      "q": "What does the `getStaticProps` function do in Next.js?",
+      "options": [
+        "Fetches data on every request at runtime",
+        "Fetches data at build time and passes it as props to the page",
+        "Fetches data only on the client side",
+        "Fetches data after the page has loaded"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 2,
+      "q": "Which Next.js router hook gives you access to the current pathname?",
+      "options": [
+        "useRoute",
+        "usePathname",
+        "useRouter",
+        "useNavigation"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 3,
+      "q": "In Next.js App Router, what is a Server Component by default?",
+      "options": [
+        "Components inside the `pages/` directory",
+        "All components inside the `app/` directory",
+        "Components marked with `export default`",
+        "Components using React hooks"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 4,
+      "q": "How do you define a dynamic route segment in Next.js?",
+      "options": [
+        "Using `[param].js` file naming convention",
+        "Using `{param}.js` file naming convention",
+        "Using `:param.js` file naming convention",
+        "Using `<param>.js` file naming convention"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 5,
+      "q": "What is the purpose of `next/image` component?",
+      "options": [
+        "To add CSS styling to images",
+        "To provide automatic image optimization, lazy loading, and responsive images",
+        "To convert images to SVG format",
+        "To upload images to a CDN"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 6,
+      "q": "What does `getServerSideProps` do differently from `getStaticProps`?",
+      "options": [
+        "It runs only once at build time",
+        "It runs on the client side after hydration",
+        "It runs on every request at runtime, enabling server-side rendering",
+        "It caches data indefinitely"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 7,
+      "q": "Which file is used to customize the default `<html>` and `<body>` tags in the Pages Router?",
+      "options": [
+        "`_app.js`",
+        "`index.js`",
+        "`_document.js`",
+        "`layout.js`"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 8,
+      "q": "In Next.js, what is Incremental Static Regeneration (ISR)?",
+      "options": [
+        "A way to render pages incrementally during initial load",
+        "A feature that allows static pages to be updated after build by revalidating at a specified interval",
+        "A method to load JavaScript incrementally",
+        "A technique for lazy-loading components"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 9,
+      "q": "How do you create an API route in the Next.js Pages Router?",
+      "options": [
+        "Create a file in the `api/` folder at the root",
+        "Create a file inside `pages/api/` directory",
+        "Create a file in the `routes/` directory",
+        "Export a function named `apiHandler` from any page"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 10,
+      "q": "What is the purpose of the `'use client'` directive in the App Router?",
+      "options": [
+        "It marks a file for server-side caching",
+        "It enables TypeScript in the component",
+        "It marks a component as a Client Component, enabling browser APIs and React hooks",
+        "It enables CSS modules for the component"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 11,
+      "q": "What does the `next.config.js` file control?",
+      "options": [
+        "TypeScript configuration",
+        "Next.js build and server behavior, including custom headers, redirects, rewrites, and environment settings",
+        "Tailwind CSS settings",
+        "ESLint rules"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 12,
+      "q": "Which rendering strategy does a page use when it exports `getStaticProps` without `getStaticPaths`?",
+      "options": [
+        "Server-Side Rendering (SSR)",
+        "Client-Side Rendering (CSR)",
+        "Static Site Generation (SSG) for a single static page",
+        "Incremental Static Regeneration (ISR)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 13,
+      "q": "What does `getStaticPaths` return?",
+      "options": [
+        "A list of CSS files to include",
+        "An array of pre-defined paths to statically generate for dynamic routes",
+        "A list of environment variables",
+        "The fallback rendering strategy only"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 14,
+      "q": "What does the `fallback: 'blocking'` option in `getStaticPaths` do?",
+      "options": [
+        "Shows a loading spinner for new paths",
+        "Returns 404 for any path not in `paths`",
+        "Server-renders new paths on first request, then caches them as static",
+        "Blocks all navigation until all paths are loaded"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 15,
+      "q": "How do you programmatically navigate to another page in the App Router?",
+      "options": [
+        "Using `window.location.href`",
+        "Using `useRouter` from 'next/navigation' and calling `router.push()`",
+        "Using `Link` component only",
+        "Using `redirect()` from React"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 16,
+      "q": "What is a Route Handler in Next.js App Router?",
+      "options": [
+        "A middleware function that runs before every page",
+        "A special file (`route.js`) inside the `app/` directory that handles HTTP requests",
+        "A component that wraps all routes",
+        "A config file for defining route aliases"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 17,
+      "q": "What is the role of `layout.js` in Next.js App Router?",
+      "options": [
+        "It defines the global CSS styles",
+        "It wraps child pages/layouts and persists across route changes without re-rendering",
+        "It handles data fetching for all pages",
+        "It configures the database connection"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 18,
+      "q": "How do you handle environment variables in Next.js that should be accessible on the client side?",
+      "options": [
+        "Store them in `.env.local` with any name",
+        "Prefix them with `NEXT_PUBLIC_` in your `.env` file",
+        "Add them to `next.config.js` under `serverEnv`",
+        "Use `process.env.CLIENT_*` naming"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 19,
+      "q": "What does the `<Link>` component in Next.js do compared to a regular `<a>` tag?",
+      "options": [
+        "It adds CSS transitions between pages",
+        "It enables client-side navigation without a full page reload and prefetches linked pages",
+        "It creates external hyperlinks only",
+        "It validates that routes exist before rendering"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 20,
+      "q": "What is middleware in Next.js used for?",
+      "options": [
+        "Adding global CSS",
+        "Running code before a request is completed, enabling authentication, redirects, and request modification",
+        "Managing database connections",
+        "Handling form submissions"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 21,
+      "q": "What is a catch-all route in Next.js?",
+      "options": [
+        "A route that handles all 404 errors",
+        "A dynamic route using `[...slug].js` that matches multiple path segments",
+        "A route that catches JavaScript errors",
+        "A fallback route defined in `_app.js`"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 22,
+      "q": "Which of the following is NOT a valid way to fetch data in Next.js App Router Server Components?",
+      "options": [
+        "Using the native `fetch()` API with caching options",
+        "Using an ORM directly in the component",
+        "Using `useEffect` with `fetch`",
+        "Using a database client directly"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 23,
+      "q": "What does `revalidate` in `getStaticProps` control?",
+      "options": [
+        "How often the component re-renders on the client",
+        "The number of seconds after which a static page regenerates in the background (ISR)",
+        "How often API routes are called",
+        "The session timeout duration"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 24,
+      "q": "How can you share state between a parent Server Component and a child Client Component?",
+      "options": [
+        "Using React Context in the Server Component",
+        "By passing data as props from the Server Component to the Client Component",
+        "Using Redux across both component types",
+        "Using `useServerState` hook"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 25,
+      "q": "What is the `loading.js` file in the App Router?",
+      "options": [
+        "A script for lazy-loading JavaScript bundles",
+        "A special file that creates a loading UI shown while a route segment loads using React Suspense",
+        "A configuration file for webpack loading rules",
+        "A component for a global loading spinner"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 26,
+      "q": "What is the purpose of `error.js` in the App Router?",
+      "options": [
+        "It logs errors to a remote server",
+        "It defines a React error boundary that catches runtime errors in a route segment",
+        "It handles HTTP 404 errors globally",
+        "It validates form inputs"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 27,
+      "q": "What is a Parallel Route in Next.js App Router?",
+      "options": [
+        "Routes that run simultaneously on the server",
+        "A way to simultaneously render multiple pages in the same layout using `@folder` conventions",
+        "Routes that load JavaScript in parallel",
+        "API routes that handle concurrent requests"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 28,
+      "q": "How do you redirect a user in a Server Component or Route Handler in Next.js App Router?",
+      "options": [
+        "`useRouter().push('/path')`",
+        "`window.location.href = '/path'`",
+        "`redirect('/path')` from 'next/navigation'",
+        "`<Redirect to='/path' />`"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 29,
+      "q": "What is the `notFound()` function used for in Next.js App Router?",
+      "options": [
+        "It returns a custom 500 error page",
+        "It triggers the `not-found.js` file to render a 404 response for the current route segment",
+        "It checks if a route exists before navigating",
+        "It removes a route from the build"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 30,
+      "q": "Which of the following best describes Server Actions in Next.js?",
+      "options": [
+        "Functions that run exclusively in the browser",
+        "Async functions marked with 'use server' that execute server-side code from Client Components or forms",
+        "Built-in Next.js API routes for CRUD operations",
+        "WebSocket event handlers on the server"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 31,
+      "q": "What does the `cache` option `'no-store'` do when passed to `fetch` in a Server Component?",
+      "options": [
+        "Caches the response indefinitely",
+        "Revalidates the cache every 60 seconds",
+        "Opts the fetch out of caching, making it dynamic on every request",
+        "Stores data in localStorage"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 32,
+      "q": "What is `next/font` used for?",
+      "options": [
+        "Loading third-party icon libraries",
+        "Automatically self-hosting fonts with zero layout shift and optimized performance",
+        "Adding Google Analytics font tracking",
+        "Converting fonts to WOFF2 format"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 33,
+      "q": "What is the difference between `pages/404.js` and `app/not-found.js`?",
+      "options": [
+        "There is no difference",
+        "`pages/404.js` is for the Pages Router, while `not-found.js` is the App Router's equivalent for custom 404 pages",
+        "`app/not-found.js` handles server errors",
+        "`pages/404.js` handles API errors only"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 34,
+      "q": "How does Next.js handle code splitting?",
+      "options": [
+        "Manually, requiring developers to configure webpack",
+        "Automatically, splitting code per page/route so only the necessary JavaScript is loaded",
+        "Using a single bundle for the entire application",
+        "Only splitting CSS files automatically"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 35,
+      "q": "What is the `Suspense` boundary used for in Next.js App Router?",
+      "options": [
+        "Handling HTTP request timeouts",
+        "Wrapping asynchronous components to show fallback UI while they load, enabling streaming",
+        "Suspending API rate limiting",
+        "Pausing server actions"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 36,
+      "q": "What does `revalidatePath` do in Next.js?",
+      "options": [
+        "Validates the URL format of a given path",
+        "Purges the cached data for a specific path and triggers regeneration on the next request",
+        "Checks if a path exists in the file system",
+        "Refreshes CSS styles for a route"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 37,
+      "q": "What is `revalidateTag` used for in Next.js?",
+      "options": [
+        "Revalidating HTML meta tags",
+        "Purging cache entries associated with a specific cache tag set during fetching",
+        "Refreshing component props with a tag name",
+        "Resetting React state with a key"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 38,
+      "q": "In Next.js, what is an Intercepting Route?",
+      "options": [
+        "A route that blocks navigation until authentication is verified",
+        "A route that intercepts another route's rendering context to show it modally, e.g., in a modal overlay",
+        "A middleware that intercepts all API calls",
+        "A route guard for protected pages"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 39,
+      "q": "What is the difference between `generateStaticParams` and `getStaticPaths`?",
+      "options": [
+        "They are identical functions",
+        "`generateStaticParams` is the App Router equivalent of `getStaticPaths`, used with dynamic segments in the `app/` directory",
+        "`generateStaticParams` only works for SSR",
+        "`getStaticPaths` works in both routers"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 40,
+      "q": "What is the `useFormStatus` hook used for in Next.js?",
+      "options": [
+        "Tracking the status of React state updates",
+        "Providing the pending state and other status info of a parent form submission, useful with Server Actions",
+        "Managing HTTP response status codes",
+        "Checking if a Server Component has finished rendering"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 41,
+      "q": "What does `useOptimistic` do in Next.js with Server Actions?",
+      "options": [
+        "Optimizes image loading automatically",
+        "Allows showing optimistic UI updates immediately while a Server Action is in progress",
+        "Pre-fetches routes optimistically",
+        "Reduces bundle size by tree-shaking"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 42,
+      "q": "What does the `generateMetadata` function do in the App Router?",
+      "options": [
+        "Generates sitemap.xml automatically",
+        "Dynamically generates SEO metadata (title, description, OG tags) for a page based on route params or fetched data",
+        "Creates JSON-LD structured data",
+        "Generates robots.txt rules"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 43,
+      "q": "Which of the following correctly sets `Cache-Control` headers in a Next.js Route Handler?",
+      "options": [
+        "`res.cache('max-age=60')`",
+        "Returning a `Response` object with `headers: { 'Cache-Control': 's-maxage=60' }`",
+        "Setting it in `next.config.js` headers array only",
+        "Using `setCacheControl()` from next/server"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 44,
+      "q": "What happens when you add a `default.js` file in a parallel route slot?",
+      "options": [
+        "It becomes the homepage for that slot",
+        "It serves as a fallback rendered when Next.js cannot determine a slot's active state during a soft navigation",
+        "It defines default export behavior for the route",
+        "It disables the parallel route feature"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 45,
+      "q": "What is `next/dynamic` used for?",
+      "options": [
+        "Fetching dynamic data from an API",
+        "Dynamically importing components with lazy loading, optionally disabling SSR for that component",
+        "Creating dynamic environment variables",
+        "Generating dynamic routes at runtime"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 46,
+      "q": "Which file must exist at the root of the `app/` directory in the App Router?",
+      "options": [
+        "`index.js`",
+        "`_app.js`",
+        "`layout.js` (root layout)",
+        "`page.js`"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 47,
+      "q": "What is the purpose of `template.js` vs `layout.js` in the App Router?",
+      "options": [
+        "They are identical in behavior",
+        "`template.js` re-mounts on every navigation, creating a new instance, while `layout.js` persists",
+        "`template.js` is used for API routes",
+        "`template.js` handles authentication templates"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 48,
+      "q": "How do you access route parameters in a Next.js App Router page component?",
+      "options": [
+        "Using `useRouter().query`",
+        "Via the `params` prop passed to the page component by Next.js",
+        "Using `getParams()` from 'next/navigation'",
+        "Via `this.props.match.params`"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 49,
+      "q": "What does `unstable_cache` from `next/cache` provide?",
+      "options": [
+        "An experimental CSS caching solution",
+        "A way to cache the result of async functions (like database queries) similar to fetch caching",
+        "An unstable version of ISR",
+        "Client-side caching of React state"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 50,
+      "q": "Which of the following is true about the App Router's data fetching model?",
+      "options": [
+        "Each component must declare its data dependencies in a global store",
+        "Data fetching is co-located in the components that need it; multiple components can fetch the same data and Next.js deduplicates requests",
+        "All data must be fetched in the root layout and passed down as props",
+        "Data fetching is only possible in Client Components"
+      ],
+      "answer": 1
+    }
+  ]
+}

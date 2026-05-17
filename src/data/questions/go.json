@@ -1,0 +1,555 @@
+{
+  "skill": "go",
+  "questions": [
+    {
+      "id": 1,
+      "q": "What is Go primarily designed for?",
+      "options": [
+        "Game development",
+        "System programming and scalability",
+        "Photo editing",
+        "Mobile UI design"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 2,
+      "q": "Which keyword is used to define a function in Go?",
+      "options": [
+        "function",
+        "func",
+        "define",
+        "fn"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 3,
+      "q": "Q3. Which keyword starts a goroutine?",
+      "options": [
+        "thread",
+        "async",
+        "go",
+        "routine"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 4,
+      "q": "Q4. What is the default value of an uninitialized int variable in Go?",
+      "options": [
+        "null",
+        "undefined",
+        "0",
+        "-1"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 5,
+      "q": "Q5. Which Go feature allows concurrent execution?",
+      "options": [
+        "Structs",
+        "Interfaces",
+        "Goroutines",
+        "Arrays"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 6,
+      "q": "Q6. What is the purpose of channels in Go?",
+      "options": [
+        "Store files",
+        "Enable communication between goroutines",
+        "Handle graphics",
+        "Compile code"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 7,
+      "q": "Q7. Which command compiles and runs a Go program?",
+      "options": [
+        "go execute",
+        "go build",
+        "go run",
+        "go start"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 8,
+      "q": "Q8. Which keyword is used to import packages in Go?",
+      "options": [
+        "include",
+        "using",
+        "import",
+        "require"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 9,
+      "q": "Q9. Which package is commonly used for formatted I/O in Go?",
+      "options": [
+        "io",
+        "fmt",
+        "bufio",
+        "print"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 10,
+      "q": "Q10. What symbol is used to declare a pointer in Go?",
+      "options": [
+        "&",
+        "*",
+        "#",
+        "@"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 11,
+      "q": "Q11. Which keyword starts a goroutine?",
+      "options": [
+        "thread",
+        "async",
+        "go",
+        "routine"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 12,
+      "q": "Q12. What is the default value of an uninitialized int variable in Go?",
+      "options": [
+        "null",
+        "undefined",
+        "0",
+        "-1"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 13,
+      "q": "Q13. Which Go feature allows concurrent execution?",
+      "options": [
+        "Structs",
+        "Interfaces",
+        "Goroutines",
+        "Arrays"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 14,
+      "q": "Q14. What is the purpose of channels in Go?",
+      "options": [
+        "Store files",
+        "Enable communication between goroutines",
+        "Handle graphics",
+        "Compile code"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 15,
+      "q": "Q15. Which command compiles and runs a Go program?",
+      "options": [
+        "go execute",
+        "go build",
+        "go run",
+        "go start"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 16,
+      "q": "Q16. Which keyword is used to import packages in Go?",
+      "options": [
+        "include",
+        "using",
+        "import",
+        "require"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 17,
+      "q": "Q17. Which package is commonly used for formatted I/O in Go?",
+      "options": [
+        "io",
+        "fmt",
+        "bufio",
+        "print"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 18,
+      "q": "Q18. What symbol is used to declare a pointer in Go?",
+      "options": [
+        "&",
+        "*",
+        "#",
+        "@"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 19,
+      "q": "Q19. Which keyword starts a goroutine?",
+      "options": [
+        "thread",
+        "async",
+        "go",
+        "routine"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 20,
+      "q": "Q20. What is the default value of an uninitialized int variable in Go?",
+      "options": [
+        "null",
+        "undefined",
+        "0",
+        "-1"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 21,
+      "q": "Q21. Which Go feature allows concurrent execution?",
+      "options": [
+        "Structs",
+        "Interfaces",
+        "Goroutines",
+        "Arrays"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 22,
+      "q": "Q22. What is the purpose of channels in Go?",
+      "options": [
+        "Store files",
+        "Enable communication between goroutines",
+        "Handle graphics",
+        "Compile code"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 23,
+      "q": "Q23. Which command compiles and runs a Go program?",
+      "options": [
+        "go execute",
+        "go build",
+        "go run",
+        "go start"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 24,
+      "q": "Q24. Which keyword is used to import packages in Go?",
+      "options": [
+        "include",
+        "using",
+        "import",
+        "require"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 25,
+      "q": "Q25. Which package is commonly used for formatted I/O in Go?",
+      "options": [
+        "io",
+        "fmt",
+        "bufio",
+        "print"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 26,
+      "q": "Q26. What symbol is used to declare a pointer in Go?",
+      "options": [
+        "&",
+        "*",
+        "#",
+        "@"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 27,
+      "q": "Q27. Which keyword starts a goroutine?",
+      "options": [
+        "thread",
+        "async",
+        "go",
+        "routine"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 28,
+      "q": "Q28. What is the default value of an uninitialized int variable in Go?",
+      "options": [
+        "null",
+        "undefined",
+        "0",
+        "-1"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 29,
+      "q": "Q29. Which Go feature allows concurrent execution?",
+      "options": [
+        "Structs",
+        "Interfaces",
+        "Goroutines",
+        "Arrays"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 30,
+      "q": "Q30. What is the purpose of channels in Go?",
+      "options": [
+        "Store files",
+        "Enable communication between goroutines",
+        "Handle graphics",
+        "Compile code"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 31,
+      "q": "Q31. Which command compiles and runs a Go program?",
+      "options": [
+        "go execute",
+        "go build",
+        "go run",
+        "go start"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 32,
+      "q": "Q32. Which keyword is used to import packages in Go?",
+      "options": [
+        "include",
+        "using",
+        "import",
+        "require"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 33,
+      "q": "Q33. Which package is commonly used for formatted I/O in Go?",
+      "options": [
+        "io",
+        "fmt",
+        "bufio",
+        "print"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 34,
+      "q": "Q34. What symbol is used to declare a pointer in Go?",
+      "options": [
+        "&",
+        "*",
+        "#",
+        "@"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 35,
+      "q": "Q35. Which keyword starts a goroutine?",
+      "options": [
+        "thread",
+        "async",
+        "go",
+        "routine"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 36,
+      "q": "Q36. What is the default value of an uninitialized int variable in Go?",
+      "options": [
+        "null",
+        "undefined",
+        "0",
+        "-1"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 37,
+      "q": "Q37. Which Go feature allows concurrent execution?",
+      "options": [
+        "Structs",
+        "Interfaces",
+        "Goroutines",
+        "Arrays"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 38,
+      "q": "Q38. What is the purpose of channels in Go?",
+      "options": [
+        "Store files",
+        "Enable communication between goroutines",
+        "Handle graphics",
+        "Compile code"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 39,
+      "q": "Q39. Which command compiles and runs a Go program?",
+      "options": [
+        "go execute",
+        "go build",
+        "go run",
+        "go start"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 40,
+      "q": "Q40. Which keyword is used to import packages in Go?",
+      "options": [
+        "include",
+        "using",
+        "import",
+        "require"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 41,
+      "q": "Q41. Which package is commonly used for formatted I/O in Go?",
+      "options": [
+        "io",
+        "fmt",
+        "bufio",
+        "print"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 42,
+      "q": "Q42. What symbol is used to declare a pointer in Go?",
+      "options": [
+        "&",
+        "*",
+        "#",
+        "@"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 43,
+      "q": "Q43. Which keyword starts a goroutine?",
+      "options": [
+        "thread",
+        "async",
+        "go",
+        "routine"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 44,
+      "q": "Q44. What is the default value of an uninitialized int variable in Go?",
+      "options": [
+        "null",
+        "undefined",
+        "0",
+        "-1"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 45,
+      "q": "Q45. Which Go feature allows concurrent execution?",
+      "options": [
+        "Structs",
+        "Interfaces",
+        "Goroutines",
+        "Arrays"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 46,
+      "q": "Q46. What is the purpose of channels in Go?",
+      "options": [
+        "Store files",
+        "Enable communication between goroutines",
+        "Handle graphics",
+        "Compile code"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 47,
+      "q": "Q47. Which command compiles and runs a Go program?",
+      "options": [
+        "go execute",
+        "go build",
+        "go run",
+        "go start"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 48,
+      "q": "Q48. Which keyword is used to import packages in Go?",
+      "options": [
+        "include",
+        "using",
+        "import",
+        "require"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 49,
+      "q": "Q49. Which package is commonly used for formatted I/O in Go?",
+      "options": [
+        "io",
+        "fmt",
+        "bufio",
+        "print"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 50,
+      "q": "Q50. What symbol is used to declare a pointer in Go?",
+      "options": [
+        "&",
+        "*",
+        "#",
+        "@"
+      ],
+      "answer": 1
+    }
+  ]
+}

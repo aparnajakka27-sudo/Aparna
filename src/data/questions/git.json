@@ -1,0 +1,555 @@
+{
+  "skill": "git",
+  "questions": [
+    {
+      "id": 1,
+      "q": "What is Git primarily used for?",
+      "options": [
+        "Graphic design",
+        "Version control",
+        "Database management",
+        "Web hosting"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 2,
+      "q": "Which command initializes a new Git repository?",
+      "options": [
+        "git start",
+        "git init",
+        "git create",
+        "git new"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 3,
+      "q": "Q3. Which platform is commonly used to host Git repositories online?",
+      "options": [
+        "Photoshop",
+        "GitHub",
+        "Excel",
+        "WordPress"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 4,
+      "q": "Q4. Which command uploads local commits to a remote repository?",
+      "options": [
+        "git pull",
+        "git fetch",
+        "git push",
+        "git merge"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 5,
+      "q": "Q5. What is a branch in Git?",
+      "options": [
+        "A backup file",
+        "A parallel version of the repository",
+        "A folder",
+        "A server"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 6,
+      "q": "Q6. Which command creates a new branch?",
+      "options": [
+        "git new-branch",
+        "git branch",
+        "git checkout",
+        "git switch"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 7,
+      "q": "Q7. Which command is used to check the status of a Git repository?",
+      "options": [
+        "git status",
+        "git check",
+        "git log",
+        "git branch"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 8,
+      "q": "Q8. What does 'git clone' do?",
+      "options": [
+        "Deletes a repository",
+        "Copies a repository",
+        "Merges branches",
+        "Uploads code"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 9,
+      "q": "Q9. Which platform is commonly used to host Git repositories online?",
+      "options": [
+        "Photoshop",
+        "GitHub",
+        "Excel",
+        "WordPress"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 10,
+      "q": "Q10. Which command uploads local commits to a remote repository?",
+      "options": [
+        "git pull",
+        "git fetch",
+        "git push",
+        "git merge"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 11,
+      "q": "Q11. What is a branch in Git?",
+      "options": [
+        "A backup file",
+        "A parallel version of the repository",
+        "A folder",
+        "A server"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 12,
+      "q": "Q12. Which command creates a new branch?",
+      "options": [
+        "git new-branch",
+        "git branch",
+        "git checkout",
+        "git switch"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 13,
+      "q": "Q13. Which command is used to check the status of a Git repository?",
+      "options": [
+        "git status",
+        "git check",
+        "git log",
+        "git branch"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 14,
+      "q": "Q14. What does 'git clone' do?",
+      "options": [
+        "Deletes a repository",
+        "Copies a repository",
+        "Merges branches",
+        "Uploads code"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 15,
+      "q": "Q15. Which platform is commonly used to host Git repositories online?",
+      "options": [
+        "Photoshop",
+        "GitHub",
+        "Excel",
+        "WordPress"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 16,
+      "q": "Q16. Which command uploads local commits to a remote repository?",
+      "options": [
+        "git pull",
+        "git fetch",
+        "git push",
+        "git merge"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 17,
+      "q": "Q17. What is a branch in Git?",
+      "options": [
+        "A backup file",
+        "A parallel version of the repository",
+        "A folder",
+        "A server"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 18,
+      "q": "Q18. Which command creates a new branch?",
+      "options": [
+        "git new-branch",
+        "git branch",
+        "git checkout",
+        "git switch"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 19,
+      "q": "Q19. Which command is used to check the status of a Git repository?",
+      "options": [
+        "git status",
+        "git check",
+        "git log",
+        "git branch"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 20,
+      "q": "Q20. What does 'git clone' do?",
+      "options": [
+        "Deletes a repository",
+        "Copies a repository",
+        "Merges branches",
+        "Uploads code"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 21,
+      "q": "Q21. Which platform is commonly used to host Git repositories online?",
+      "options": [
+        "Photoshop",
+        "GitHub",
+        "Excel",
+        "WordPress"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 22,
+      "q": "Q22. Which command uploads local commits to a remote repository?",
+      "options": [
+        "git pull",
+        "git fetch",
+        "git push",
+        "git merge"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 23,
+      "q": "Q23. What is a branch in Git?",
+      "options": [
+        "A backup file",
+        "A parallel version of the repository",
+        "A folder",
+        "A server"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 24,
+      "q": "Q24. Which command creates a new branch?",
+      "options": [
+        "git new-branch",
+        "git branch",
+        "git checkout",
+        "git switch"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 25,
+      "q": "Q25. Which command is used to check the status of a Git repository?",
+      "options": [
+        "git status",
+        "git check",
+        "git log",
+        "git branch"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 26,
+      "q": "Q26. What does 'git clone' do?",
+      "options": [
+        "Deletes a repository",
+        "Copies a repository",
+        "Merges branches",
+        "Uploads code"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 27,
+      "q": "Q27. Which platform is commonly used to host Git repositories online?",
+      "options": [
+        "Photoshop",
+        "GitHub",
+        "Excel",
+        "WordPress"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 28,
+      "q": "Q28. Which command uploads local commits to a remote repository?",
+      "options": [
+        "git pull",
+        "git fetch",
+        "git push",
+        "git merge"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 29,
+      "q": "Q29. What is a branch in Git?",
+      "options": [
+        "A backup file",
+        "A parallel version of the repository",
+        "A folder",
+        "A server"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 30,
+      "q": "Q30. Which command creates a new branch?",
+      "options": [
+        "git new-branch",
+        "git branch",
+        "git checkout",
+        "git switch"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 31,
+      "q": "Q31. Which command is used to check the status of a Git repository?",
+      "options": [
+        "git status",
+        "git check",
+        "git log",
+        "git branch"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 32,
+      "q": "Q32. What does 'git clone' do?",
+      "options": [
+        "Deletes a repository",
+        "Copies a repository",
+        "Merges branches",
+        "Uploads code"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 33,
+      "q": "Q33. Which platform is commonly used to host Git repositories online?",
+      "options": [
+        "Photoshop",
+        "GitHub",
+        "Excel",
+        "WordPress"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 34,
+      "q": "Q34. Which command uploads local commits to a remote repository?",
+      "options": [
+        "git pull",
+        "git fetch",
+        "git push",
+        "git merge"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 35,
+      "q": "Q35. What is a branch in Git?",
+      "options": [
+        "A backup file",
+        "A parallel version of the repository",
+        "A folder",
+        "A server"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 36,
+      "q": "Q36. Which command creates a new branch?",
+      "options": [
+        "git new-branch",
+        "git branch",
+        "git checkout",
+        "git switch"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 37,
+      "q": "Q37. Which command is used to check the status of a Git repository?",
+      "options": [
+        "git status",
+        "git check",
+        "git log",
+        "git branch"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 38,
+      "q": "Q38. What does 'git clone' do?",
+      "options": [
+        "Deletes a repository",
+        "Copies a repository",
+        "Merges branches",
+        "Uploads code"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 39,
+      "q": "Q39. Which platform is commonly used to host Git repositories online?",
+      "options": [
+        "Photoshop",
+        "GitHub",
+        "Excel",
+        "WordPress"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 40,
+      "q": "Q40. Which command uploads local commits to a remote repository?",
+      "options": [
+        "git pull",
+        "git fetch",
+        "git push",
+        "git merge"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 41,
+      "q": "Q41. What is a branch in Git?",
+      "options": [
+        "A backup file",
+        "A parallel version of the repository",
+        "A folder",
+        "A server"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 42,
+      "q": "Q42. Which command creates a new branch?",
+      "options": [
+        "git new-branch",
+        "git branch",
+        "git checkout",
+        "git switch"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 43,
+      "q": "Q43. Which command is used to check the status of a Git repository?",
+      "options": [
+        "git status",
+        "git check",
+        "git log",
+        "git branch"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 44,
+      "q": "Q44. What does 'git clone' do?",
+      "options": [
+        "Deletes a repository",
+        "Copies a repository",
+        "Merges branches",
+        "Uploads code"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 45,
+      "q": "Q45. Which platform is commonly used to host Git repositories online?",
+      "options": [
+        "Photoshop",
+        "GitHub",
+        "Excel",
+        "WordPress"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 46,
+      "q": "Q46. Which command uploads local commits to a remote repository?",
+      "options": [
+        "git pull",
+        "git fetch",
+        "git push",
+        "git merge"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 47,
+      "q": "Q47. What is a branch in Git?",
+      "options": [
+        "A backup file",
+        "A parallel version of the repository",
+        "A folder",
+        "A server"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 48,
+      "q": "Q48. Which command creates a new branch?",
+      "options": [
+        "git new-branch",
+        "git branch",
+        "git checkout",
+        "git switch"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 49,
+      "q": "Q49. Which command is used to check the status of a Git repository?",
+      "options": [
+        "git status",
+        "git check",
+        "git log",
+        "git branch"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 50,
+      "q": "Q50. What does 'git clone' do?",
+      "options": [
+        "Deletes a repository",
+        "Copies a repository",
+        "Merges branches",
+        "Uploads code"
+      ],
+      "answer": 1
+    }
+  ]
+}

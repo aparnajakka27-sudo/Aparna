@@ -1,0 +1,555 @@
+{
+  "skill": "typescript",
+  "questions": [
+    {
+      "id": 1,
+      "q": "What is the output type of the following TypeScript expression?    `typeof null`",
+      "options": [
+        "null",
+        "object",
+        "undefined",
+        "string"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 2,
+      "q": "Which utility type makes all properties of a type optional?",
+      "options": [
+        "Required<T>",
+        "Readonly<T>",
+        "Partial<T>",
+        "Pick<T, K>"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 3,
+      "q": "What does the `never` type represent in TypeScript?",
+      "options": [
+        "A value that is always undefined",
+        "A type that cannot have any value",
+        "An empty object type",
+        "A type for null values"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 4,
+      "q": "Which of the following correctly defines a generic function?",
+      "options": [
+        "function id(x: T): T { return x; }",
+        "function id<T>(x: T): T { return x; }",
+        "function id<T>(x): T { return x; }",
+        "function<T> id(x: T): T { return x; }"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 5,
+      "q": "What is a discriminated union in TypeScript?",
+      "options": [
+        "A union with duplicate types removed",
+        "A union type with a common literal property used for narrowing",
+        "A union that only allows primitive types",
+        "A union restricted to two types"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 6,
+      "q": "What does `keyof` do in TypeScript?",
+      "options": [
+        "Returns all values of an object type",
+        "Returns the keys of an object as a union type",
+        "Iterates over object keys at runtime",
+        "Removes keys from an object type"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 7,
+      "q": "Which of the following is true about `interface` vs `type` in TypeScript?",
+      "options": [
+        "type can be extended; interface cannot",
+        "interface supports declaration merging; type does not",
+        "type cannot represent object shapes",
+        "interface can represent primitive types directly"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 8,
+      "q": "What is the result of `'hello' as unknown as number` in TypeScript?",
+      "options": [
+        "Compilation error",
+        "Runtime error",
+        "Allowed — compiles without error",
+        "Returns NaN at runtime"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 9,
+      "q": "What does `Readonly<T>` do?",
+      "options": [
+        "Freezes the object at runtime",
+        "Makes all properties of T read-only at compile time",
+        "Prevents object reassignment",
+        "Removes all methods from T"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 10,
+      "q": "What is the purpose of the `infer` keyword in TypeScript?",
+      "options": [
+        "To create runtime type checks",
+        "To declare a type variable inside a conditional type",
+        "To infer generic types automatically",
+        "To create intersection types"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 11,
+      "q": "Which of these correctly narrows a union type using a type guard?",
+      "options": [
+        "if (x is string) { }",
+        "if (typeof x === 'string') { }",
+        "if (x.type === string) { }",
+        "if (x instanceof 'string') { }"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 12,
+      "q": "What does `Record<K, V>` represent?",
+      "options": [
+        "An array of key-value pairs",
+        "A mapped type with keys of type K and values of type V",
+        "A tuple with two elements",
+        "A readonly map"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 13,
+      "q": "What happens when you use `strictNullChecks: true`?",
+      "options": [
+        "null is removed from all types",
+        "undefined and null are excluded from every type unless explicitly included",
+        "Only null is excluded from types",
+        "Strict mode is automatically enabled"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 14,
+      "q": "What is the difference between `unknown` and `any`?",
+      "options": [
+        "They are identical in behavior",
+        "unknown requires type narrowing before use; any does not",
+        "any is stricter than unknown",
+        "unknown can be assigned to any type without narrowing"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 15,
+      "q": "Which TypeScript feature allows you to define types based on the shape of a value?",
+      "options": [
+        "typeof operator",
+        "instanceof check",
+        "Mapped types",
+        "Template literal types"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 16,
+      "q": "What does `Extract<T, U>` do?",
+      "options": [
+        "Removes from T all types that are assignable to U",
+        "Extracts from T all types that are assignable to U",
+        "Returns the intersection of T and U",
+        "Picks properties from T that match U"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 17,
+      "q": "What is the correct way to define a tuple type in TypeScript?",
+      "options": [
+        "type T = Array<string, number>",
+        "type T = [string, number]",
+        "type T = (string | number)[]",
+        "type T = {0: string; 1: number}"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 18,
+      "q": "What does the `satisfies` operator do in TypeScript?",
+      "options": [
+        "Asserts a type at runtime",
+        "Validates that an expression matches a type while preserving its narrowed type",
+        "Converts a type to another type",
+        "Creates a type assertion"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 19,
+      "q": "Which utility type removes `null` and `undefined` from a type?",
+      "options": [
+        "Exclude<T, null>",
+        "Required<T>",
+        "NonNullable<T>",
+        "Defined<T>"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 20,
+      "q": "What is structural typing in TypeScript?",
+      "options": [
+        "Types checked by their name",
+        "Types checked by their shape/structure",
+        "Types validated at runtime",
+        "Types defined using classes only"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 21,
+      "q": "What does `Awaited<T>` resolve to?",
+      "options": [
+        "The type T wrapped in a Promise",
+        "The resolved type of a Promise<T>",
+        "The type of T after awaiting once",
+        "The union of T and Promise<T>"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 22,
+      "q": "What is a mapped type in TypeScript?",
+      "options": [
+        "An array of key-value pairs",
+        "A type that transforms each property of another type",
+        "A type created using Map<K, V>",
+        "A function type mapping inputs to outputs"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 23,
+      "q": "Which of the following is NOT a valid TypeScript access modifier?",
+      "options": [
+        "public",
+        "private",
+        "protected",
+        "internal"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 24,
+      "q": "What does `ReturnType<T>` extract?",
+      "options": [
+        "The parameter types of a function",
+        "The return type of a function type T",
+        "The constructor type of a class",
+        "The resolved type of a promise"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 25,
+      "q": "What is a conditional type in TypeScript?",
+      "options": [
+        "A type that depends on runtime conditions",
+        "A type expression of the form T extends U ? X : Y",
+        "A type that changes based on compiler flags",
+        "A union type with conditions"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 26,
+      "q": "What does the `override` keyword ensure in TypeScript?",
+      "options": [
+        "A method must be declared in the class itself",
+        "A method must override a base class method, catching rename errors",
+        "A method cannot be further overridden",
+        "A method is called before the parent method"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 27,
+      "q": "What are template literal types used for?",
+      "options": [
+        "Formatting strings at runtime",
+        "Creating new string types by combining literal types",
+        "Declaring multiline strings",
+        "Replacing string interpolation"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 28,
+      "q": "What is the difference between `==` and `===` in TypeScript?",
+      "options": [
+        "No difference — TypeScript treats them identically",
+        "== performs type coercion; === checks value and type strictly",
+        "=== is only for objects",
+        "== is not allowed in TypeScript"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 29,
+      "q": "What does `Parameters<T>` return?",
+      "options": [
+        "The return type of T",
+        "A tuple of parameter types of function type T",
+        "An array of parameter names",
+        "The number of parameters of T"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 30,
+      "q": "Which of the following is true about enums in TypeScript?",
+      "options": [
+        "All enums are purely compile-time constructs",
+        "Const enums are erased at compile time; regular enums generate JS code",
+        "Enums cannot have string values",
+        "Enums are identical to union types"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 31,
+      "q": "What does the `abstract` keyword mean on a class?",
+      "options": [
+        "The class cannot have any methods",
+        "The class cannot be instantiated directly and may have abstract methods",
+        "The class is marked for deletion",
+        "The class properties are all optional"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 32,
+      "q": "What is an index signature in TypeScript?",
+      "options": [
+        "A way to sort object keys",
+        "A syntax to define types for dynamic property names",
+        "A method to access array indices",
+        "A reference to object prototype"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 33,
+      "q": "Which of the following correctly implements a type predicate?",
+      "options": [
+        "function isString(x: any): boolean { return typeof x === 'string'; }",
+        "function isString(x: any): x is string { return typeof x === 'string'; }",
+        "function isString(x: any): typeof string { return typeof x === 'string'; }",
+        "function isString(x: string): boolean { return true; }"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 34,
+      "q": "What does `Omit<T, K>` do?",
+      "options": [
+        "Picks only the properties K from T",
+        "Removes the properties K from T",
+        "Makes properties K optional in T",
+        "Extracts K from a union T"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 35,
+      "q": "What is declaration merging in TypeScript?",
+      "options": [
+        "Combining two .ts files into one",
+        "When multiple declarations with the same name are merged into one definition",
+        "Merging type and value namespaces",
+        "Combining generic types"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 36,
+      "q": "What is the output of: `type T = true extends boolean ? 'yes' : 'no'`?",
+      "options": [
+        "'no'",
+        "boolean",
+        "'yes'",
+        "never"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 37,
+      "q": "Which TypeScript feature allows pattern matching on string types?",
+      "options": [
+        "Conditional types",
+        "Template literal types",
+        "Mapped types",
+        "Index signatures"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 38,
+      "q": "What does enabling `noImplicitAny` do?",
+      "options": [
+        "Disallows the any type entirely",
+        "Raises an error when a variable implicitly gets an any type",
+        "Removes all any types from the codebase",
+        "Converts any to unknown automatically"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 39,
+      "q": "What is the correct syntax for a type assertion in TypeScript?",
+      "options": [
+        "x as Type or <Type>x (in non-JSX files)",
+        "x: Type",
+        "Type(x)",
+        "x satisfies Type"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 40,
+      "q": "Which of the following is true about `readonly` arrays?",
+      "options": [
+        "Elements can be reassigned but not added",
+        "Neither mutation methods (push, pop) nor index assignment are allowed",
+        "They are identical to regular arrays at runtime",
+        "readonly arrays are converted to tuples"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 41,
+      "q": "What does `ConstructorParameters<T>` return?",
+      "options": [
+        "The instance type of a class",
+        "A tuple of parameter types of a constructor function type",
+        "The prototype of a class",
+        "A list of class methods"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 42,
+      "q": "Which of the following correctly uses a namespace in TypeScript?",
+      "options": [
+        "import Validation from './validation'",
+        "namespace Validation { export interface StringValidator { } }",
+        "module Validation { export interface StringValidator { } }",
+        "package Validation { interface StringValidator { } }"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 43,
+      "q": "What is covariance in TypeScript's type system?",
+      "options": [
+        "A type can be substituted with a more general type",
+        "A type can be substituted with a more specific (narrower) subtype",
+        "Two types are unrelated",
+        "Types are checked at runtime"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 44,
+      "q": "What does `Exclude<T, U>` do?",
+      "options": [
+        "Extracts union members of T assignable to U",
+        "Removes from T all union members assignable to U",
+        "Intersects T and U",
+        "Returns types in U not present in T"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 45,
+      "q": "Which of the following is true about function overloads in TypeScript?",
+      "options": [
+        "Each overload must have a separate function body",
+        "Overload signatures are for type checking; the implementation signature handles the actual logic",
+        "Overloads are not supported in TypeScript",
+        "Overloads must have the same parameter count"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 46,
+      "q": "What is an ambient declaration in TypeScript?",
+      "options": [
+        "A declaration inside a namespace",
+        "A declaration that tells TypeScript about types that exist elsewhere (e.g., .d.ts files)",
+        "A declaration with default values",
+        "A declaration that's removed at compile time"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 47,
+      "q": "What does `InstanceType<T>` return?",
+      "options": [
+        "The constructor function type of a class",
+        "The instance type of a constructor function type T",
+        "The prototype of T",
+        "The static members of a class"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 48,
+      "q": "Which option enables strict null checks, noImplicitAny, and several other strict options at once?",
+      "options": [
+        "noImplicitAny: true",
+        "strictMode: true",
+        "strict: true",
+        "fullStrict: true"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 49,
+      "q": "What is the purpose of `declare module` in TypeScript?",
+      "options": [
+        "To create a new module at runtime",
+        "To augment or describe the types of an existing module",
+        "To import a module dynamically",
+        "To mark a module as deprecated"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 50,
+      "q": "What is the `using` keyword introduced in TypeScript 5.2?",
+      "options": [
+        "A shorthand for importing modules",
+        "A way to declare variables that are automatically disposed via Symbol.dispose",
+        "A syntax for using generics inline",
+        "A keyword for defining mixins"
+      ],
+      "answer": 1
+    }
+  ]
+}

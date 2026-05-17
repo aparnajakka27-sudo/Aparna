@@ -1,0 +1,555 @@
+{
+  "skill": "nodejs",
+  "questions": [
+    {
+      "id": 1,
+      "q": "What is the primary purpose of Node.js?",
+      "options": [
+        "Styling web pages",
+        "Running JavaScript on the server",
+        "Managing databases",
+        "Creating animations"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 2,
+      "q": "Which module is used to create a web server in Node.js?",
+      "options": [
+        "fs",
+        "http",
+        "path",
+        "os"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 3,
+      "q": "What does npm stand for?",
+      "options": [
+        "Node Package Manager",
+        "New Project Module",
+        "Node Program Method",
+        "Network Package Manager"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 4,
+      "q": "Which keyword is used to import modules in Node.js?",
+      "options": [
+        "require",
+        "imports",
+        "include",
+        "attach"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 5,
+      "q": "What is the default package manager for Node.js?",
+      "options": [
+        "yarn",
+        "npm",
+        "pnpm",
+        "bower"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 6,
+      "q": "Which method reads a file asynchronously?",
+      "options": [
+        "fs.readFile()",
+        "fs.readFileSync()",
+        "fs.open()",
+        "fs.fetch()"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 7,
+      "q": "Which object represents the current module in Node.js?",
+      "options": [
+        "global",
+        "module",
+        "process",
+        "exports"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 8,
+      "q": "What is the purpose of Express.js?",
+      "options": [
+        "Database management",
+        "Frontend designing",
+        "Building web applications and APIs",
+        "Compiling JavaScript"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 9,
+      "q": "Which command initializes a new Node.js project?",
+      "options": [
+        "node init",
+        "npm init",
+        "start project",
+        "node start"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 10,
+      "q": "Which method is used to listen for incoming requests in Express?",
+      "options": [
+        "app.listen()",
+        "app.run()",
+        "server.start()",
+        "listen.app()"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 11,
+      "q": "What is middleware in Express.js?",
+      "options": [
+        "A database",
+        "A function executed between request and response",
+        "A package manager",
+        "A frontend framework"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 12,
+      "q": "Which object stores environment variables in Node.js?",
+      "options": [
+        "env",
+        "process.env",
+        "global.env",
+        "system.env"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 13,
+      "q": "Which method sends JSON data in Express?",
+      "options": [
+        "res.sendJSON()",
+        "res.json()",
+        "res.output()",
+        "res.data()"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 14,
+      "q": "What is the event loop in Node.js?",
+      "options": [
+        "A database query",
+        "A mechanism for handling async operations",
+        "A compiler",
+        "A package"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 15,
+      "q": "Which module is used for working with file paths?",
+      "options": [
+        "http",
+        "path",
+        "url",
+        "stream"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 16,
+      "q": "Which method creates a new Express application?",
+      "options": [
+        "express.create()",
+        "express()",
+        "app.create()",
+        "new Express()"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 17,
+      "q": "What is the purpose of package.json?",
+      "options": [
+        "Store HTML",
+        "Manage project metadata and dependencies",
+        "Compile code",
+        "Run database queries"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 18,
+      "q": "Which command installs all dependencies from package.json?",
+      "options": [
+        "npm install",
+        "npm fetch",
+        "npm packages",
+        "npm load"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 19,
+      "q": "Which function is used to execute code after a delay?",
+      "options": [
+        "setTimeout()",
+        "delay()",
+        "setInterval()",
+        "wait()"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 20,
+      "q": "What is the purpose of req.params in Express?",
+      "options": [
+        "Access query parameters",
+        "Access route parameters",
+        "Access headers",
+        "Access body data"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 21,
+      "q": "Which HTTP method is commonly used to update data?",
+      "options": [
+        "GET",
+        "POST",
+        "PUT",
+        "FETCH"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 22,
+      "q": "Which Node.js module is used for handling events?",
+      "options": [
+        "events",
+        "eventLoop",
+        "listener",
+        "trigger"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 23,
+      "q": "What is callback hell?",
+      "options": [
+        "Nested callbacks making code hard to read",
+        "An npm error",
+        "A database issue",
+        "A frontend bug"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 24,
+      "q": "Which feature helps avoid callback hell?",
+      "options": [
+        "Loops",
+        "Promises",
+        "Variables",
+        "Templates"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 25,
+      "q": "What does async/await simplify?",
+      "options": [
+        "CSS styling",
+        "Asynchronous code handling",
+        "Database indexing",
+        "Package installation"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 26,
+      "q": "Which method parses incoming JSON requests in Express?",
+      "options": [
+        "express.json()",
+        "body.parse()",
+        "req.json()",
+        "json.parse()"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 27,
+      "q": "What is the use of the process object?",
+      "options": [
+        "Access system and runtime information",
+        "Create HTML pages",
+        "Manage CSS",
+        "Store database records"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 28,
+      "q": "Which operator is used to export modules?",
+      "options": [
+        "export",
+        "exports",
+        "module.exports",
+        "share"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 29,
+      "q": "Which command runs a Node.js file?",
+      "options": [
+        "run app.js",
+        "node app.js",
+        "npm app.js",
+        "start app.js"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 30,
+      "q": "Which method is used to handle GET requests in Express?",
+      "options": [
+        "app.fetch()",
+        "app.get()",
+        "app.request()",
+        "app.route()"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 31,
+      "q": "What is REST API?",
+      "options": [
+        "A database",
+        "An architectural style for APIs",
+        "A JavaScript library",
+        "A Node.js module"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 32,
+      "q": "Which status code means 'Not Found'?",
+      "options": [
+        "200",
+        "201",
+        "404",
+        "500"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 33,
+      "q": "Which package is commonly used for MongoDB in Node.js?",
+      "options": [
+        "mongoose",
+        "sequelize",
+        "mysql",
+        "mongojslite"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 34,
+      "q": "What is the purpose of nodemon?",
+      "options": [
+        "Monitor database",
+        "Automatically restart server on changes",
+        "Compile JavaScript",
+        "Create APIs"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 35,
+      "q": "Which method stops a Node.js server?",
+      "options": [
+        "server.close()",
+        "server.stop()",
+        "app.end()",
+        "node.exit()"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 36,
+      "q": "Which keyword handles errors in async/await?",
+      "options": [
+        "catch",
+        "error",
+        "try...catch",
+        "finally"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 37,
+      "q": "What is the purpose of CORS?",
+      "options": [
+        "Database backup",
+        "Allow cross-origin requests",
+        "Compress files",
+        "Encrypt passwords"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 38,
+      "q": "Which method sends a response in Express?",
+      "options": [
+        "res.send()",
+        "res.output()",
+        "res.writePage()",
+        "app.send()"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 39,
+      "q": "Which module helps create and verify JWT tokens?",
+      "options": [
+        "jsonwebtoken",
+        "jwt-auth",
+        "tokenjs",
+        "auth-token"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 40,
+      "q": "What is the role of bcrypt?",
+      "options": [
+        "Routing",
+        "Password hashing",
+        "Database querying",
+        "Logging"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 41,
+      "q": "Which method deletes data in REST APIs?",
+      "options": [
+        "REMOVE",
+        "DELETE",
+        "ERASE",
+        "CUT"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 42,
+      "q": "Which function executes repeatedly after intervals?",
+      "options": [
+        "setLoop()",
+        "setInterval()",
+        "repeat()",
+        "timer()"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 43,
+      "q": "Which Node.js framework is minimal and flexible?",
+      "options": [
+        "Angular",
+        "Express",
+        "Django",
+        "Laravel"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 44,
+      "q": "Which object contains request body data in Express?",
+      "options": [
+        "req.body",
+        "req.data",
+        "body.req",
+        "request.bodyData"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 45,
+      "q": "What is the purpose of dotenv package?",
+      "options": [
+        "Encrypt passwords",
+        "Manage environment variables",
+        "Create APIs",
+        "Run tests"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 46,
+      "q": "Which command installs Express.js?",
+      "options": [
+        "npm add express",
+        "npm install express",
+        "node express",
+        "install express"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 47,
+      "q": "What is the purpose of app.use() in Express?",
+      "options": [
+        "Define middleware",
+        "Create database",
+        "Compile code",
+        "Start server"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 48,
+      "q": "Which built-in module provides operating system information?",
+      "options": [
+        "sys",
+        "os",
+        "system",
+        "machine"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 49,
+      "q": "What does res.status() do in Express?",
+      "options": [
+        "Reads headers",
+        "Sets HTTP status code",
+        "Stops server",
+        "Creates middleware"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 50,
+      "q": "Which feature allows Node.js to handle multiple requests efficiently?",
+      "options": [
+        "Multithreading",
+        "Event-driven architecture",
+        "Blocking I/O",
+        "Static rendering"
+      ],
+      "answer": 1
+    }
+  ]
+}

@@ -1,0 +1,555 @@
+{
+  "skill": "javascript",
+  "questions": [
+    {
+      "id": 1,
+      "q": "What is the output of: console.log(typeof null)?",
+      "options": [
+        "null",
+        "undefined",
+        "object",
+        "string"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 2,
+      "q": "Which method removes the last element from an array and returns it?",
+      "options": [
+        "shift()",
+        "pop()",
+        "splice()",
+        "slice()"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 3,
+      "q": "What does the '===' operator check?",
+      "options": [
+        "Value only",
+        "Type only",
+        "Value and type",
+        "Reference equality"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 4,
+      "q": "What is a closure in JavaScript?",
+      "options": [
+        "A function with no return value",
+        "A function that retains access to its outer scope even after the outer function returns",
+        "A method to close browser windows",
+        "A way to end a loop"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 5,
+      "q": "What is the output of: console.log(0.1 + 0.2 === 0.3)?",
+      "options": [
+        "true",
+        "false",
+        "NaN",
+        "undefined"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 6,
+      "q": "Which of the following is NOT a JavaScript data type?",
+      "options": [
+        "Symbol",
+        "BigInt",
+        "Float",
+        "undefined"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 7,
+      "q": "What does Array.prototype.map() return?",
+      "options": [
+        "The original array modified",
+        "A new array with results of calling a function on every element",
+        "A boolean",
+        "undefined"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 8,
+      "q": "What is event delegation?",
+      "options": [
+        "Removing event listeners",
+        "Attaching an event listener to a parent element to handle events from children",
+        "Firing events manually",
+        "Preventing event bubbling"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 9,
+      "q": "What is the output of: console.log([] + [])?",
+      "options": [
+        "[]",
+        "0",
+        "''",
+        "null"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 10,
+      "q": "Which keyword is used to create a block-scoped variable?",
+      "options": [
+        "var",
+        "int",
+        "let",
+        "define"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 11,
+      "q": "What does Promise.all() do?",
+      "options": [
+        "Runs promises one by one",
+        "Returns the first resolved promise",
+        "Runs all promises in parallel and resolves when all resolve",
+        "Ignores rejected promises"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 12,
+      "q": "What is the purpose of the 'use strict' directive?",
+      "options": [
+        "Enable ES6 features",
+        "Enforce stricter parsing and error handling",
+        "Disable hoisting",
+        "Speed up code execution"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 13,
+      "q": "What is hoisting in JavaScript?",
+      "options": [
+        "Moving code to the bottom of the file",
+        "Declarations being moved to the top of their scope during compilation",
+        "Copying variables",
+        "A sorting mechanism"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 14,
+      "q": "Which method is used to convert a JSON string to a JavaScript object?",
+      "options": [
+        "JSON.stringify()",
+        "JSON.parse()",
+        "JSON.convert()",
+        "JSON.toObject()"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 15,
+      "q": "What will typeof NaN return?",
+      "options": [
+        "'NaN'",
+        "'undefined'",
+        "'number'",
+        "'null'"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 16,
+      "q": "What is the spread operator used for?",
+      "options": [
+        "Multiplying arrays",
+        "Expanding iterables into individual elements",
+        "Merging strings only",
+        "Creating new functions"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 17,
+      "q": "What does the 'this' keyword refer to inside an arrow function?",
+      "options": [
+        "The arrow function itself",
+        "The global object always",
+        "The enclosing lexical context",
+        "undefined"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 18,
+      "q": "Which array method returns true if at least one element satisfies the condition?",
+      "options": [
+        "every()",
+        "find()",
+        "some()",
+        "filter()"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 19,
+      "q": "What is the output of: console.log(2 ** 3)?",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "23"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 20,
+      "q": "What does the optional chaining operator (?.) do?",
+      "options": [
+        "Throws an error if property is null",
+        "Returns undefined instead of throwing an error when accessing null/undefined properties",
+        "Converts null to 0",
+        "Creates optional parameters"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 21,
+      "q": "What is a generator function?",
+      "options": [
+        "A function that runs once",
+        "A function that can pause execution and resume later using yield",
+        "A function that generates random numbers",
+        "A constructor function"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 22,
+      "q": "What is the output of: console.log(typeof undefined)?",
+      "options": [
+        "'null'",
+        "'object'",
+        "'undefined'",
+        "'void'"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 23,
+      "q": "Which method can be used to flatten a nested array one level deep?",
+      "options": [
+        "flat()",
+        "flatten()",
+        "reduce()",
+        "concat()"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 24,
+      "q": "What is the difference between null and undefined?",
+      "options": [
+        "No difference",
+        "null is assigned intentionally; undefined means a variable is declared but not assigned",
+        "undefined is an object; null is a string",
+        "null is a number"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 25,
+      "q": "What does Array.from() do?",
+      "options": [
+        "Converts arrays to strings",
+        "Creates a new array from array-like or iterable objects",
+        "Duplicates arrays",
+        "Removes duplicates from arrays"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 26,
+      "q": "What is the output of: console.log(1 + '2')?",
+      "options": [
+        "3",
+        "'12'",
+        "NaN",
+        "'3'"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 27,
+      "q": "Which of these is a way to avoid callback hell?",
+      "options": [
+        "Using more nested functions",
+        "Using Promises or async/await",
+        "Using setTimeout",
+        "Using global variables"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 28,
+      "q": "What does Object.freeze() do?",
+      "options": [
+        "Deletes the object",
+        "Makes the object immutable — no properties can be added, removed, or modified",
+        "Converts object to string",
+        "Hides the object from scope"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 29,
+      "q": "What is the output of: console.log([] == false)?",
+      "options": [
+        "false",
+        "true",
+        "undefined",
+        "TypeError"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 30,
+      "q": "Which method can be used to find the index of an element in an array?",
+      "options": [
+        "findIndex()",
+        "search()",
+        "locate()",
+        "getIndex()"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 31,
+      "q": "What is a Symbol in JavaScript?",
+      "options": [
+        "A string alias",
+        "A unique and immutable primitive value often used as object keys",
+        "A math operator",
+        "A type of function"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 32,
+      "q": "What does the nullish coalescing operator (??) return?",
+      "options": [
+        "The left-hand value if it's falsy",
+        "The right-hand value if the left is null or undefined",
+        "Always the right-hand value",
+        "A boolean"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 33,
+      "q": "What is the output of: console.log(typeof function(){})?",
+      "options": [
+        "'object'",
+        "'function'",
+        "'undefined'",
+        "'callable'"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 34,
+      "q": "Which method transforms each element of an array and flattens the result one level?",
+      "options": [
+        "flatMap()",
+        "flat()",
+        "reduce()",
+        "mapFlat()"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 35,
+      "q": "What is the event loop in JavaScript?",
+      "options": [
+        "A loop that runs event handlers in parallel",
+        "A mechanism that handles asynchronous callbacks by processing the call stack and message queue",
+        "A DOM feature",
+        "A CSS animation loop"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 36,
+      "q": "What does the bind() method do?",
+      "options": [
+        "Calls a function immediately",
+        "Creates a new function with 'this' bound to the provided value",
+        "Attaches an event listener",
+        "Merges two functions"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 37,
+      "q": "What is the output of: console.log(!!'false')?",
+      "options": [
+        "false",
+        "true",
+        "'false'",
+        "undefined"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 38,
+      "q": "Which of the following creates a deep copy of an object?",
+      "options": [
+        "Object.assign()",
+        "Spread operator {...obj}",
+        "JSON.parse(JSON.stringify(obj))",
+        "Object.create()"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 39,
+      "q": "What does async/await do?",
+      "options": [
+        "Makes code run faster",
+        "Allows writing asynchronous code in a synchronous style using Promises",
+        "Creates multiple threads",
+        "Prevents errors in async code"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 40,
+      "q": "What is prototype-based inheritance?",
+      "options": [
+        "Classes inheriting from classes",
+        "Objects inheriting directly from other objects via the prototype chain",
+        "A method of function overloading",
+        "Using extends keyword only"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 41,
+      "q": "What is the output of: console.log(3 > 2 > 1)?",
+      "options": [
+        "true",
+        "false",
+        "TypeError",
+        "NaN"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 42,
+      "q": "Which method returns a new array with elements that pass the test?",
+      "options": [
+        "map()",
+        "find()",
+        "filter()",
+        "every()"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 43,
+      "q": "What is debouncing in JavaScript?",
+      "options": [
+        "Removing duplicate events",
+        "Delaying a function call until a specified time has passed since the last invocation",
+        "Throttling API requests",
+        "Canceling event bubbling"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 44,
+      "q": "What does Object.keys() return?",
+      "options": [
+        "All values of an object",
+        "All own enumerable property names of an object as an array",
+        "All nested keys",
+        "A Map of key-value pairs"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 45,
+      "q": "What is the output of: console.log(+'3')?",
+      "options": [
+        "'3'",
+        "NaN",
+        "3",
+        "undefined"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 46,
+      "q": "What is the purpose of WeakMap?",
+      "options": [
+        "A map with fewer features",
+        "A map where keys are weakly referenced and can be garbage collected",
+        "A read-only map",
+        "A map for primitive types only"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 47,
+      "q": "What is memoization?",
+      "options": [
+        "A way to store data in memory permanently",
+        "An optimization technique that caches function results based on inputs",
+        "A type of recursion",
+        "A method to compress data"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 48,
+      "q": "Which statement about const is correct?",
+      "options": [
+        "const variables cannot be reassigned but object properties can be changed",
+        "const variables are completely immutable",
+        "const is the same as var",
+        "const allows reassignment in strict mode"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 49,
+      "q": "What is the output of: console.log(typeof class {})?",
+      "options": [
+        "'class'",
+        "'object'",
+        "'function'",
+        "'undefined'"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 50,
+      "q": "What does the reduce() method do?",
+      "options": [
+        "Reduces array length by half",
+        "Executes a reducer function on each element to produce a single output value",
+        "Filters array elements",
+        "Sorts the array"
+      ],
+      "answer": 1
+    }
+  ]
+}
